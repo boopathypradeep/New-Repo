@@ -6,14 +6,21 @@ public static void main(String[] args) {
 	String text="hello";
 	System.out.println(text);
 	String text="https://www.kkr.com/#";
+	String text="hello";
 	System.out.println(text);
-	System.out.println("//a[@href=""+href+""]");
 	String text="https://www.kkr.com/#";
+	String text="hello";
 	System.out.println(text);
-	System.out.println("//a[@href=""+href+""]");
 	String text="https://www.kkr.com/#";
+	String text="hello";
 	System.out.println(text);
-	System.out.println("//a[@href=""+href+""]");
+	String text="https://www.kkr.com/#";
+	String text="hello";
+	System.out.println(text);
+	String text="https://www.kkr.com/#";
+	String text="hello";
+	System.out.println(text);
+	String text="https://www.kkr.com/#";
 }
 	
 
