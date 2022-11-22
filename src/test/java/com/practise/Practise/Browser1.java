@@ -1,19 +1,31 @@
 package com.practise.Practise;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 public class Browser1{
 public static void main(String[] args) {
-	String text="hello";
-	System.out.println(text);
-	String text="https://www.kkr.com/#";
-	System.out.println(text);
-	System.out.println("//a[@href=""+href+""]");
-	String text="https://www.kkr.com/#";
-	System.out.println(text);
-	System.out.println("//a[@href=""+href+""]");
-	String text="https://www.kkr.com/#";
-	System.out.println(text);
-	System.out.println("//a[@href=""+href+""]");
+	  Calendar now = Calendar.getInstance();
+      SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
+      String dateNow = formatter.format(now.getTime());
+      System.out.println("date Now:"+dateNow);
+       String fetch_date = dateNow.replaceAll("/", "_");
+       Calendar now = Calendar.getInstance();
+       SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
+       String dateNow = formatter.format(now.getTime());
+       System.out.println("date Now:"+dateNow);
+        String fetch_date = dateNow.replaceAll("/", "_");
+        Calendar now = Calendar.getInstance();
+        SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
+        String dateNow = formatter.format(now.getTime());
+        System.out.println("date Now:"+dateNow);
+         String fetch_date = dateNow.replaceAll("/", "_");
+         Calendar now = Calendar.getInstance();
+         SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
+         String dateNow = formatter.format(now.getTime());
+         System.out.println("date Now:"+dateNow);
+          String fetch_date = dateNow.replaceAll("/", "_");
+             	
 }
 	
 
