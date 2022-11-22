@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5143" started-at="2022-11-16T09:10:19Z" finished-at="2022-11-16T09:10:24Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="Runner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.Runner@3159c4b8]" name="feature" class="com.runner.Runner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="5143" started-at="2022-11-16T09:10:19Z" finished-at="2022-11-16T09:10:24Z">
+      <class name="com.runner.Runner">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.runner.Runner@3159c4b8]" name="setup" is-config="true" duration-ms="209" started-at="2022-11-16T14:40:19Z" finished-at="2022-11-16T14:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.Runner@3159c4b8]" name="feature" duration-ms="4847" started-at="2022-11-16T14:40:19Z" description="runs cucucmber feature file" data-provider="features" finished-at="2022-11-16T14:40:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[validate the facebook application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.Runner@3159c4b8]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2022-11-16T14:40:24Z" finished-at="2022-11-16T14:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
